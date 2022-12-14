@@ -1,0 +1,114 @@
+.tascManager{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(137.61deg, rgba(31, 84, 251, 0.142) 5.55%, rgba(246, 250, 255, 0.106) 29.09%, rgba(72, 145, 255, 0) 93.14%), #FFFFFF;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tascManager__backgroundImg img{
+    position: absolute;
+    left: 20%;
+}
+
+.tascManager__backgroundImg > img:first-child{
+    top: 0;
+}
+
+.tascManager__backgroundImg > img:last-child{
+    bottom: 0;
+}
+
+
+.tascManager__main{
+    width: 70%;
+    height: 60vh;
+    display: flex;
+}
+
+.tascManager__main__left{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.tascManager__main__left h1{
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.tascManager__main__left h6{
+    width: 70%;
+    margin: 0 auto;
+    color: #4891FF;
+    font-size: 14px;
+}
+
+.tascManager__main__right{
+    width: 40%;
+    text-align: center;
+}
+
+.tascManager__main__right form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70%;
+    padding-top: 5%;
+}
+
+.tascManager__main__right form input{
+    width: 100%;
+    padding: 0 auto;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: black 1px solid;
+    outline: none;
+    text-align: center;
+    padding-bottom: 8px;
+    font-size: 16px;
+}
+
+
+.tascManager__main__right form input::-webkit-input-placeholder{
+    padding: 0 45% 15px 45%;
+    font-size: 16px;
+}
+
+.tascManager__main__right button{
+    width: 246px;
+    background-color: #4891FF;
+    height: 51px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.tascManager__main__right div:last-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12%;
+}
+
+a{
+    color: #4891FF;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    padding-left: 25px;
+}
