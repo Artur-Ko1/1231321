@@ -29,6 +29,7 @@ const FormsLeftSide = () => {
                   </div>
                 </div> 
                 <Routes>
+                  <Route path='/' element={<Registration />}></Route>
                   <Route path='/registration' element={<Registration />}></Route>
                   <Route path='/autorization' element={<Autorization />}></Route>
                 </Routes>
