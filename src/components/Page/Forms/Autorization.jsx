@@ -8,7 +8,7 @@ const Autorization = () => {
         <div className={css.tascManager__main__right}>
                   <h2>Авторизация</h2>
                   <form>
-                    <input type="text" placeholder='Почта'/>
+                    <input type="Email" placeholder='Почта'/>
                     <input type="password" placeholder='Пароль'/>
                     <button>Авторизоваться</button>
                   </form>

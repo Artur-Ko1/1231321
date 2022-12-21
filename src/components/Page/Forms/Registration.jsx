@@ -11,7 +11,7 @@ const Registration = () => {
               <h2>Регистрация</h2>
                   <form>
                     <input type="text" placeholder='Имя'/>
-                    <input type="text" placeholder='Почта'/>
+                    <input type="Email" placeholder='Почта'/>
                     <input type="password" placeholder='Пароль'/>
                     <button>Зарегистрироваться</button>
                   </form>
